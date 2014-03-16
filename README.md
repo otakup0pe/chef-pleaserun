@@ -34,6 +34,7 @@ Just include `pleaserun` in your node's `run_list`:
 
 include_recipe 'pleaserun::default'
 
+```
 pleaserun 'test' do
   name        'test'
   program     '/bin/echo'
@@ -41,6 +42,7 @@ pleaserun 'test' do
   description 'test app'
   action      :create
 end
+```
 
 Contributing
 ------------
