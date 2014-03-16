@@ -32,9 +32,10 @@ Just include `pleaserun` in your node's `run_list`:
 
 #### lwrp
 
-include_recipe 'pleaserun::default'
 
 ```
+include_recipe 'pleaserun::default'
+
 pleaserun 'test' do
   name        'test'
   program     '/bin/echo'
